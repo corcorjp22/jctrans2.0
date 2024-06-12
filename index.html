@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC Transportation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>JC Transportation</h1>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#quote">Get a Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="overview">
+        <h2>Company Overview</h2>
+        <p>Welcome to JC Transportation, your reliable partner in shuttle services. We provide large and small shuttle services tailored to your needs.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a variety of shuttle services including:</p>
+        <ul>
+            <li>Large Group Transportation</li>
+            <li>Small Group Shuttle Services</li>
+            <li>Corporate Events</li>
+            <li>Private Bookings</li>
+        </ul>
+    </section>
+    <section id="quote">
+        <h2>Get a Quote</h2>
+        <form id="quote-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="service">Service Required:</label>
+            <select id="service" name="service">
+                <option value="large-group">Large Group Transportation</option>
+                <option value="small-group">Small Group Shuttle Services</option>
+                <option value="corporate">Corporate Events</option>
+                <option value="private">Private Bookings</option>
+            </select>
+            <label for="details">Additional Details:</label>
+            <textarea id="details" name="details" rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 JC Transportation. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
